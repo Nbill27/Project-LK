@@ -63,7 +63,7 @@
             <h5 class="mb-0">Surat Diproses</h5>
         </div>
         <div class="card-body">
-            <?php if (empty($surat> <?php if (empty($surat_diproses)): ?>
+            <?php if (empty($surat_diproses)): ?>
                 <p>Tidak ada surat yang sedang diproses.</p>
             <?php else: ?>
                 <ul class="list-group">
